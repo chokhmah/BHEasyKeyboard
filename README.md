@@ -1,7 +1,7 @@
 BHEasyKeyboard - iOS 6/7 (iPad/iPhone)
 ==============
 
-Allow you to handle text inputs in iOS easily, without the need to modify or move every parent view of the text inputs, which would be hassle for me.
+Allow you to handle text inputs in iOS easily, without the need to modify or move every parent view of the text inputs, which would be hassle for my part.
 
 
 How
