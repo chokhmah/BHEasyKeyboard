@@ -112,7 +112,6 @@
 // Listen for inputs that will be focused
 // and show the text to our textView
 - (void) newFocus {
-    
     // Get rid of the bug that Can't find keyplane that supports type 8
     // when in ipad ios 6/6.1
     if ([responder keyboardType] == UIKeyboardTypeDecimalPad) {

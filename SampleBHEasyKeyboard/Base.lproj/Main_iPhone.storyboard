@@ -23,7 +23,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="textFieldTouchDown:" destination="vXZ-lx-hvc" eventType="touchDown" id="RgN-gK-776"/>
+                                    <action selector="textFieldTouchDown:" destination="vXZ-lx-hvc" eventType="editingDidBegin" id="MyW-9O-zZ4"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WOB-Vr-ogC">
@@ -32,7 +32,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
-                                    <action selector="textFieldTouchDown:" destination="vXZ-lx-hvc" eventType="touchDown" id="fhn-iL-csk"/>
+                                    <action selector="textFieldTouchDown:" destination="vXZ-lx-hvc" eventType="editingDidBegin" id="fdb-HT-kNe"/>
                                 </connections>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kbh-S1-mKQ">
