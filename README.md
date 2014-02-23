@@ -9,11 +9,11 @@ How
 1. Just add/drag the BHEasyKeyboard folder into your project navigator
 2. Add the QuartzCore.framework
 3. Add the UITextField/UITextView as outlets in your ViewController and connect it with the inputs in your ViewController in interface builder. Or you can do it your own way, as long as it will still gonna work.
-4. Create an IBAction that has a "Touch Down" event, and connect your UITextField. (note. you cannot connect UITextView in the IBAction, we'll handle that later)
+4. Create an IBAction that has a "Editing Did Begin" event, and connect your UITextField. (note. you cannot connect UITextView in the IBAction, we'll handle that later)
 5. And in your implementation file
     - import the BHEasyKeyboard header file - ```#import "BHEasyKeyboard.h"```
     - Create a class variable of ```BHEasyKeyboard```
-    - instantiate it in viewDidLoad if it is nil. Here we set all the UITextView delegate to the instance of our ```BHEasyKeyboard```. This is the work around since we can't add the UITextView in the "Touch Down" event.
+    - instantiate it in viewDidLoad if it is nil. Here we set all the UITextView delegate to the instance of our ```BHEasyKeyboard```.
     - And don't forget to set the sender of the "textTouchDown" of our library
 
 
